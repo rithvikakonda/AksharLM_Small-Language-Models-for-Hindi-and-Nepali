@@ -181,12 +181,4 @@ This project investigates:
 - What changes occur in attention-head behavior after fine-tuning?
 - How does removing explicit positional information affect language modeling?
 
-## Author
-
-**Srinivas Billuri**  
-B.Tech, Computer Science and Engineering  
-International Institute of Information Technology, Hyderabad (IIITH)
-
 ---
-
-*This project was completed as part of the Language Models and Agents individual project, Monsoon 2026.*
