@@ -1,7 +1,5 @@
 # Phase 2 Report: Model Implementation, Pretraining, and Evaluation
 
-**Author:** Srinivas Billuri  
-**Date:** September 6, 2026  
 **Models:** Hindi (Model H — Higher-resource), Nepali (Model L — Lower-resource)
 
 ---
@@ -485,12 +483,3 @@ Mean attention distance measures how far back (in tokens) each query position at
 7. **Architectural Parity:** By calibrating `d_ff = 1,184` for Nepali to offset the smaller embedding table (4K × 512), both models trained with identical compute budgets (~25.0M parameters, 16,000 steps, ~4.8 hours on T4 GPU) under identical AdamW / cosine schedules.
 
 ---
-
-
-## 6. Model Checkpoint Links
-
-| Model | Language | Parameter Count | Vocabulary | Google Drive Checkpoint Link |
-|---|---|---|---|---|
-| **Model H** | Hindi | 25.08M | 8,000 | [Hindi Checkpoints Drive Link](https://drive.google.com/drive/folders/1LDeLUJxyK7X05ciyYPUzs5nVEk-SUMp9?usp=sharing) |
-| **Model L** | Nepali | 25.00M | 4,000 | [Nepali Checkpoints Drive Link](https://drive.google.com/drive/folders/1antrGM_wDYbhuOUXnHI-BbBZcT1bcr13?usp=sharing) |
-
